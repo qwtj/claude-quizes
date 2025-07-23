@@ -1,0 +1,280 @@
+{
+  "questions": [
+    {
+      "correct": 0,
+      "options": [
+        "Birmingham",
+        "London",
+        "Manchester",
+        "Liverpool"
+      ],
+      "question": "Which city is Black Sabbath, Ozzy Osbourne's original band, famously from?",
+      "topic": "Black Sabbath Origin"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Diary of a Madman",
+        "Blizzard of Ozz",
+        "Bark at the Moon",
+        "The Ultimate Sin"
+      ],
+      "question": "What was the title of Ozzy Osbourne's debut solo album?",
+      "topic": "Solo Career Debut"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Jake E. Lee",
+        "Zakk Wylde",
+        "Randy Rhoads",
+        "Gus G."
+      ],
+      "question": "Who was the highly acclaimed guitarist on Ozzy Osbourne's first two solo albums, \"Blizzard of Ozz\" and \"Diary of a Madman\"?",
+      "topic": "Key Collaborators"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Des Moines, IA (1982)",
+        "New York City, NY (1983)",
+        "Los Angeles, CA (1981)",
+        "Chicago, IL (1984)"
+      ],
+      "question": "At which infamous concert did Ozzy Osbourne bite the head off a dead bat?",
+      "topic": "Infamous Incidents"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "The Osbournes",
+        "Ozzy's Family Values",
+        "Life with the Osbournes",
+        "Keeping Up With The Osbournes"
+      ],
+      "question": "What was the name of the reality television show that featured Ozzy Osbourne and his family?",
+      "topic": "Reality Television"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Paranoid",
+        "Master of Reality",
+        "Black Sabbath",
+        "Vol. 4"
+      ],
+      "question": "What was the title of Black Sabbath's debut album, released in 1970?",
+      "topic": "Black Sabbath Albums"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Kelly Osbourne",
+        "Aimee Osbourne",
+        "Sharon Osbourne",
+        "Jessica Simpson"
+      ],
+      "question": "Who is Ozzy Osbourne's long-time wife and manager?",
+      "topic": "Personal Life/Management"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "The Prince of Darkness",
+        "The Duke of Doom",
+        "The King of Metal",
+        "The Baron of Blasphemy"
+      ],
+      "question": "What common nickname is often used to refer to Ozzy Osbourne?",
+      "topic": "Nicknames"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Bark at the Moon",
+        "Crazy Train",
+        "Mama, I'm Coming Home",
+        "No More Tears"
+      ],
+      "question": "Which of these hit songs is from \"Blizzard of Ozz\"?",
+      "topic": "Solo Songs"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Zakk Wylde",
+        "Gus G.",
+        "Jake E. Lee",
+        "Brad Gillis"
+      ],
+      "question": "After Randy Rhoads' tragic death, who was the first guitarist to join Ozzy Osbourne's solo band?",
+      "topic": "Solo Band Lineup"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Mr. Crowley",
+        "Bark at the Moon",
+        "Shot in the Dark",
+        "Mama, I'm Coming Home"
+      ],
+      "question": "Which song, a power ballad, is a well-known track from the \"No More Tears\" album?",
+      "topic": "Solo Songs"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Austin Powers in Goldmember",
+        "School of Rock",
+        "Tenacious D in The Pick of Destiny",
+        "Wayne's World"
+      ],
+      "question": "Ozzy Osbourne made a memorable cameo appearance in which 2000s comedy film?",
+      "topic": "Film Appearances"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Ozzfest",
+        "Black Sabbath Fest",
+        "Metal Mania",
+        "Prince of Darkness Festival"
+      ],
+      "question": "What is the name of the heavy metal music festival founded by Ozzy and Sharon Osbourne?",
+      "topic": "Music Festivals"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "The End",
+        "13",
+        "Reunion",
+        "Forbidden"
+      ],
+      "question": "What was the title of Black Sabbath's final studio album with Ozzy Osbourne on vocals, released in 2013?",
+      "topic": "Black Sabbath Reunion"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Diary of a Madman",
+        "The Ultimate Sin",
+        "Bark at the Moon",
+        "Mr. Crowley"
+      ],
+      "question": "Which Ozzy Osbourne solo album shares its name with a famous book by Aleister Crowley?",
+      "topic": "Album Inspirations"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Aimee Osbourne",
+        "Kelly Osbourne",
+        "Jessica Osbourne",
+        "Sarah Osbourne"
+      ],
+      "question": "What is the name of Ozzy and Sharon's daughter who became known through \"The Osbournes\" and is also a musician/TV personality?",
+      "topic": "Family Members"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Paranoid",
+        "Iron Man",
+        "N.I.B.",
+        "Black Sabbath"
+      ],
+      "question": "What was Black Sabbath's first single, released in 1970?",
+      "topic": "Black Sabbath Singles"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "The Ultimate Sin",
+        "No Rest for the Wicked",
+        "Bark at the Moon",
+        "No More Tears"
+      ],
+      "question": "On which Ozzy Osbourne album did Zakk Wylde make his debut as the lead guitarist?",
+      "topic": "Solo Band Lineup"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Rock and Roll Hall of Fame",
+        "Grammy Hall of Fame",
+        "Songwriters Hall of Fame",
+        "Metal Hall of Fame"
+      ],
+      "question": "In 2006, Ozzy Osbourne was inducted into the UK Music Hall of Fame as a solo artist. Which other major Hall of Fame was he inducted into as part of Black Sabbath?",
+      "topic": "Awards and Recognition"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Max Norman",
+        "Bob Rock",
+        "Roy Thomas Baker",
+        "Mutt Lange"
+      ],
+      "question": "Who was the highly influential producer behind Ozzy Osbourne's early solo albums like \"Blizzard of Ozz\" and \"Diary of a Madman\"?",
+      "topic": "Producers"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "I Am Ozzy",
+        "Bark at the Moon: My Story",
+        "Diary of a Madman: My Life",
+        "Ordinary Man: The Ozzy Story"
+      ],
+      "question": "What is the title of Ozzy Osbourne's autobiography, published in 2009?",
+      "topic": "Autobiography"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Musical differences",
+        "Drug and alcohol abuse",
+        "Creative burnout",
+        "Financial disputes"
+      ],
+      "question": "Why was Ozzy Osbourne initially fired from Black Sabbath in 1977 and again in 1979?",
+      "topic": "Career Challenges"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Mr. Crowley",
+        "Revelation (Mother Earth)",
+        "Suicide Solution",
+        "Goodbye to Romance"
+      ],
+      "question": "Which well-known song by Ozzy Osbourne is named after a prominent occultist?",
+      "topic": "Solo Songs/Inspirations"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Ozzmosis",
+        "Down to Earth",
+        "The Ozzman Cometh",
+        "Scream"
+      ],
+      "question": "Which studio album did Ozzy Osbourne release after the highly successful \"No More Tears\"?",
+      "topic": "Solo Albums Chronology"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Glam Metal",
+        "Thrash Metal",
+        "Heavy Metal",
+        "Progressive Rock"
+      ],
+      "question": "What genre of music is Ozzy Osbourne primarily known for?",
+      "topic": "Music Genre"
+    }
+  ],
+  "title": "Ozzy Osbourne Quiz"
+}
