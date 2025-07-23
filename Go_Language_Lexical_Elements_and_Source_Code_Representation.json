@@ -1,0 +1,280 @@
+{
+  "title": "Go Language Lexical Elements and Source Code Representation",
+  "questions": [
+    {
+      "question": "Which of the following is the correct way to represent a Unicode character in Go source code?",
+      "options": [
+        "UTF-8 encoding only",
+        "ASCII encoding only",
+        "UTF-16 encoding only",
+        "Both UTF-8 and UTF-16 encoding"
+      ],
+      "correct": 0,
+      "topic": "Source code representation"
+    },
+    {
+      "question": "What is the valid range for Unicode characters in Go source code?",
+      "options": [
+        "U+0000 to U+FFFF",
+        "U+0000 to U+10FFFF",
+        "U+0001 to U+FFFF",
+        "U+0020 to U+007F"
+      ],
+      "correct": 1,
+      "topic": "Characters"
+    },
+    {
+      "question": "Which character can be used as the first character of an identifier in Go?",
+      "options": [
+        "Digit",
+        "Underscore",
+        "Hyphen",
+        "Dollar sign"
+      ],
+      "correct": 1,
+      "topic": "Letters and digits"
+    },
+    {
+      "question": "What are the basic lexical elements in Go?",
+      "options": [
+        "Comments, tokens, semicolons",
+        "Comments, tokens, semicolons, whitespace",
+        "Identifiers, keywords, operators",
+        "All of the above"
+      ],
+      "correct": 1,
+      "topic": "Lexical elements"
+    },
+    {
+      "question": "Which type of comment can span multiple lines in Go?",
+      "options": [
+        "// comment",
+        "/* comment */",
+        "# comment",
+        "<!-- comment -->"
+      ],
+      "correct": 1,
+      "topic": "Comments"
+    },
+    {
+      "question": "What is a token in Go?",
+      "options": [
+        "Only keywords",
+        "Only operators",
+        "The basic lexical unit of a program",
+        "Only identifiers"
+      ],
+      "correct": 2,
+      "topic": "Tokens"
+    },
+    {
+      "question": "When are semicolons automatically inserted in Go?",
+      "options": [
+        "Never",
+        "At the end of every line",
+        "When a line ends with certain tokens",
+        "Only manually"
+      ],
+      "correct": 2,
+      "topic": "Semicolons"
+    },
+    {
+      "question": "Which of the following is a valid Go identifier?",
+      "options": [
+        "2variable",
+        "_var",
+        "var-name",
+        "class"
+      ],
+      "correct": 1,
+      "topic": "Identifiers"
+    },
+    {
+      "question": "How many keywords does Go have?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correct": 1,
+      "topic": "Keywords"
+    },
+    {
+      "question": "Which of the following is NOT a Go keyword?",
+      "options": [
+        "func",
+        "class",
+        "struct",
+        "interface"
+      ],
+      "correct": 1,
+      "topic": "Keywords"
+    },
+    {
+      "question": "What does the ':=' operator do in Go?",
+      "options": [
+        "Assignment only",
+        "Declaration only",
+        "Short variable declaration",
+        "Comparison"
+      ],
+      "correct": 2,
+      "topic": "Operators and punctuation"
+    },
+    {
+      "question": "Which integer literal format represents octal in Go?",
+      "options": [
+        "0x123",
+        "0o123",
+        "0b101",
+        "123"
+      ],
+      "correct": 1,
+      "topic": "Integer literals"
+    },
+    {
+      "question": "What is the correct format for a hexadecimal integer literal in Go?",
+      "options": [
+        "#FF",
+        "0xFF",
+        "$FF",
+        "xFF"
+      ],
+      "correct": 1,
+      "topic": "Integer literals"
+    },
+    {
+      "question": "Which of the following is a valid floating-point literal in Go?",
+      "options": [
+        ".5",
+        "5.",
+        "5.0",
+        "All of the above"
+      ],
+      "correct": 3,
+      "topic": "Floating-point literals"
+    },
+    {
+      "question": "How do you represent scientific notation in Go floating-point literals?",
+      "options": [
+        "Using 'E' or 'e'",
+        "Using 'S' or 's'",
+        "Using '^'",
+        "Using '**'"
+      ],
+      "correct": 0,
+      "topic": "Floating-point literals"
+    },
+    {
+      "question": "What suffix is used for imaginary literals in Go?",
+      "options": [
+        "j",
+        "i",
+        "I",
+        "im"
+      ],
+      "correct": 1,
+      "topic": "Imaginary literals"
+    },
+    {
+      "question": "Which of the following is a valid imaginary literal?",
+      "options": [
+        "3.14j",
+        "3.14i",
+        "i3.14",
+        "3.14*i"
+      ],
+      "correct": 1,
+      "topic": "Imaginary literals"
+    },
+    {
+      "question": "What does a rune literal represent in Go?",
+      "options": [
+        "A string",
+        "A Unicode code point",
+        "A byte",
+        "An array"
+      ],
+      "correct": 1,
+      "topic": "Rune literals"
+    },
+    {
+      "question": "How is a rune literal delimited in Go?",
+      "options": [
+        "Double quotes",
+        "Single quotes",
+        "Backticks",
+        "Square brackets"
+      ],
+      "correct": 1,
+      "topic": "Rune literals"
+    },
+    {
+      "question": "What is the escape sequence for a newline character in Go rune literals?",
+      "options": [
+        "\\r",
+        "\\n",
+        "\\t",
+        "\\v"
+      ],
+      "correct": 1,
+      "topic": "Rune literals"
+    },
+    {
+      "question": "Which type of string literal allows escape sequences in Go?",
+      "options": [
+        "Raw string literals",
+        "Interpreted string literals",
+        "Both types",
+        "Neither type"
+      ],
+      "correct": 1,
+      "topic": "String literals"
+    },
+    {
+      "question": "How are raw string literals delimited in Go?",
+      "options": [
+        "Single quotes",
+        "Double quotes",
+        "Backticks",
+        "Triple quotes"
+      ],
+      "correct": 2,
+      "topic": "String literals"
+    },
+    {
+      "question": "Can raw string literals in Go contain newlines?",
+      "options": [
+        "Yes",
+        "No",
+        "Only escaped newlines",
+        "Only in comments"
+      ],
+      "correct": 0,
+      "topic": "String literals"
+    },
+    {
+      "question": "Which operator is used for channel operations in Go?",
+      "options": [
+        "->",
+        "<-",
+        "=>",
+        "<="
+      ],
+      "correct": 1,
+      "topic": "Operators and punctuation"
+    },
+    {
+      "question": "What happens if you try to use a Go keyword as an identifier?",
+      "options": [
+        "It works fine",
+        "It causes a runtime error",
+        "It causes a compile-time error",
+        "It becomes a reserved word"
+      ],
+      "correct": 2,
+      "topic": "Keywords"
+    }
+  ]
+}
