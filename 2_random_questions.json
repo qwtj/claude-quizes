@@ -1,0 +1,27 @@
+{
+  "title": "General Knowledge Quiz",
+  "questions": [
+    {
+      "question": "Which planet in our solar system has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Uranus"
+      ],
+      "correct": 1,
+      "topic": "Astronomy and planetary science"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Go",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correct": 2,
+      "topic": "Chemistry and periodic table"
+    }
+  ]
+}
