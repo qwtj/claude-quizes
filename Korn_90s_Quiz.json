@@ -1,0 +1,225 @@
+{
+  "questions": [
+    {
+      "correct": 1,
+      "options": [
+        "1993",
+        "1994",
+        "1995",
+        "1996"
+      ],
+      "question": "What year was Korn's self-titled debut album released?",
+      "topic": "Debut Album"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Blind",
+        "Shoots and Ladders",
+        "Faget",
+        "Sick of It"
+      ],
+      "question": "Which song was the first official single released from Korn's debut album?",
+      "topic": "Early Singles"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Snoop Dogg",
+        "Ice Cube",
+        "Sticky Fingaz",
+        "Dr. Dre"
+      ],
+      "question": "Which famous rapper guested on the track \"Children of the Korn\" from \"Follow the Leader\"?",
+      "topic": "Collaborations"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "question": "How many different album covers were initially available for Korn's \"Issues\" album upon its release?",
+      "topic": "Album Art"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Got the Life",
+        "Freak on a Leash",
+        "Pretty",
+        "The Devil Went Down to Georgia"
+      ],
+      "question": "Which song from \"Follow the Leader\" is a cover of a famous country song?",
+      "topic": "Cover Songs"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Blind",
+        "Shoots and Ladders",
+        "Clown",
+        "Need To"
+      ],
+      "question": "On which song from their debut album does Jonathan Davis famously incorporate scatting and non-lyrical vocalizations?",
+      "topic": "Vocal Style"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Blind",
+        "Faget",
+        "Clown",
+        "Sick of It"
+      ],
+      "question": "What was Korn's very first music video for?",
+      "topic": "Music Videos"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Ray Luzier",
+        "Joey Jordison",
+        "David Silveria",
+        "Brooks Wackerman"
+      ],
+      "question": "Who was the original drummer for Korn during the 90s?",
+      "topic": "Band Members"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Untouchables",
+        "Take a Look in the Mirror",
+        "Issues",
+        "See You on the Other Side"
+      ],
+      "question": "What was the title of Korn's fourth studio album, released in 1999?",
+      "topic": "Discography"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Death Metal",
+        "Nu Metal",
+        "Thrash Metal",
+        "Progressive Metal"
+      ],
+      "question": "Korn is often credited with pioneering which subgenre of heavy metal in the mid-1990s?",
+      "topic": "Genre Influence"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Korn",
+        "Life Is Peachy",
+        "Follow the Leader",
+        "Issues"
+      ],
+      "question": "On which album does the hit single \"Freak on a Leash\" appear?",
+      "topic": "Hit Singles"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "A drum kit",
+        "A bagpipe",
+        "A didgeridoo",
+        "A seven-string guitar"
+      ],
+      "question": "What signature instrument, a custom-made microphone stand, did Jonathan Davis often use during live performances in the 90s?",
+      "topic": "Live Performance"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "50",
+        "60",
+        "75",
+        "100"
+      ],
+      "question": "Korn made history on MTV's Total Request Live (TRL) with the video for \"Freak on a Leash\" by retiring it after how many consecutive days at #1?",
+      "topic": "Music Videos/Pop Culture"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "question": "In what year was Korn's second album, \"Life Is Peachy,\" released?",
+      "topic": "Discography"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Standard E",
+        "Drop D",
+        "Seven-string guitars in A tuning",
+        "Open G"
+      ],
+      "question": "Korn became known for their distinctive sound largely due to their guitarists using which type of tuning?",
+      "topic": "Musical Style"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Ross Robinson",
+        "Brendan O'Brien",
+        "Michael Beinhorn",
+        "Terry Date"
+      ],
+      "question": "Who produced Korn's first two albums, \"Korn\" and \"Life Is Peachy\"?",
+      "topic": "Production"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Dead Bodies Everywhere",
+        "Wake Up",
+        "Am I Going Crazy",
+        "Early One Morning"
+      ],
+      "question": "The album \"Issues\" famously features a hidden track after \"Dirty\". What is the title of this hidden track?",
+      "topic": "Album Details"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Fred Durst",
+        "Chino Moreno",
+        "Ice Cube",
+        "Deftones"
+      ],
+      "question": "Which artist provided guest vocals on the track \"Wicked\" from \"Life Is Peachy\"?",
+      "topic": "Collaborations"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Lollapalooza",
+        "Ozzfest",
+        "Rock Am Ring",
+        "Woodstock 99"
+      ],
+      "question": "Korn had a highly publicized and chaotic performance at which major festival in 1999?",
+      "topic": "Live Performances/Festivals"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "A distorted doll",
+        "A child on a swing",
+        "A cornfield",
+        "A dark figure"
+      ],
+      "question": "What iconic image or symbol is featured prominently on the cover of Korn's self-titled debut album?",
+      "topic": "Album Art"
+    }
+  ],
+  "title": "Korn 90s Quiz"
+}
