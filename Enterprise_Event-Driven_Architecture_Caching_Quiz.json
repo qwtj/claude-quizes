@@ -1,0 +1,687 @@
+{
+  "questions": [
+    {
+      "correct": 2,
+      "options": [
+        "Decreasing the number of event consumers",
+        "Increasing event broker latency",
+        "Reducing load on upstream services and improving query performance",
+        "Simplifying event schema evolution"
+      ],
+      "question": "What is the primary benefit of incorporating caching into an enterprise event-driven architecture?",
+      "topic": "Caching Benefits"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Cache-aside with event-driven invalidation",
+        "Write-through caching for every event",
+        "Read-through caching for event logs",
+        "Database-level caching on event stores"
+      ],
+      "question": "Which caching strategy is most appropriate for a microservice that processes events and needs to provide low-latency query access to derived state, while maintaining eventual consistency?",
+      "topic": "Caching Strategies"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Synchronous cache updates from event producers",
+        "Race conditions during concurrent cache updates from multiple consumers",
+        "Guaranteed strong consistency across all caches",
+        "Reduced memory footprint for cached data"
+      ],
+      "question": "What is a common challenge when maintaining cache consistency in an event-driven system where multiple services consume the same event stream to update their local caches?",
+      "topic": "Cache Consistency Challenges"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "All events must pass through the cache before reaching consumers",
+        "The cache acts as the single source of truth for all data",
+        "Data in the cache is always strongly consistent with the event stream",
+        "Events are used to invalidate or update cached data, often leading to eventual consistency"
+      ],
+      "question": "In an event-driven architecture, how does the cache typically interact with the event stream to maintain data freshness?",
+      "topic": "Event-Driven Cache Invalidation"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "A distributed in-memory data store like Redis or Apache Ignite",
+        "A traditional relational database with indexing",
+        "A simple file system cache on each service instance",
+        "A Content Delivery Network (CDN)"
+      ],
+      "question": "For high-volume, low-latency data lookups in a distributed event-driven system, which caching technology is generally preferred?",
+      "topic": "Caching Technologies"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Publishing cache updates as new events",
+        "Ensuring all services use the same cache instance",
+        "Implementing a Time-To-Live (TTL) or event-based invalidation mechanism",
+        "Relying on synchronous database writes for cache coherence"
+      ],
+      "question": "To prevent stale data in caches within an event-driven architecture, what is a common approach?",
+      "topic": "Cache Stale Data Prevention"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "It complicates data recovery in case of system failure",
+        "It can introduce eventual consistency, as cache updates might lag behind event processing",
+        "It makes the system inherently more resilient to network partitions",
+        "It simplifies the debugging of event processing logic"
+      ],
+      "question": "How does integrating a cache affect the consistency model of an event-driven system?",
+      "topic": "Consistency Models"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "By increasing the number of network hops for data retrieval",
+        "By forcing all data requests to go through the event broker",
+        "By reducing the need for asynchronous event processing",
+        "By providing faster access to frequently accessed data, reducing load on backend systems"
+      ],
+      "question": "How does caching primarily contribute to the scalability of an event-driven application?",
+      "topic": "Scalability Benefits"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Cache-aside",
+        "Write-through",
+        "Write-back",
+        "Read-through"
+      ],
+      "question": "Which caching pattern involves the application code explicitly checking the cache before fetching data from the primary data source and then populating the cache?",
+      "topic": "Caching Patterns"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "Immediate consistency with the source of truth",
+        "Eventual consistency, requiring careful handling of data freshness",
+        "Strong consistency across all distributed cache nodes",
+        "Strict ordering of all cache updates"
+      ],
+      "question": "When an event consumer updates its local cache based on incoming events, what type of consistency is typically achieved with respect to the original data source?",
+      "topic": "Eventual Consistency"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "It means the cache becomes the single source of truth for all events.",
+        "It implies that events are only generated when a cache miss occurs.",
+        "It describes a pattern where events explicitly signal that certain data in a cache needs to be invalidated or updated.",
+        "It refers to caching events themselves in the event broker."
+      ],
+      "question": "What does 'event-driven cache invalidation' mean in the context of an event-driven architecture?",
+      "topic": "Event-Driven Cache Invalidation"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Decreased memory consumption across services",
+        "Reduced complexity in data modeling",
+        "Increased network latency due to cache synchronization",
+        "Improved response times for queries and reduced database load"
+      ],
+      "question": "What is a key performance advantage of using caching in an event-driven architecture?",
+      "topic": "Performance Benefits"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "A cache should be considered a derived state or materialized view, not the primary source of truth.",
+        "Caches should always be write-through to ensure data integrity.",
+        "Caches must always be strongly consistent with the source database.",
+        "A cache should store all historical events for auditing purposes."
+      ],
+      "question": "When designing caching for an event-driven system, what is a crucial principle regarding the cache's role?",
+      "topic": "Design Principles"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "By ensuring all events are processed synchronously",
+        "By using events to communicate cache invalidation or update requests across distributed services",
+        "By relying on a single centralized cache for the entire system",
+        "By implementing a strict two-phase commit protocol for cache operations"
+      ],
+      "question": "How can distributed caches in an event-driven system maintain a reasonable level of data consistency across multiple service instances?",
+      "topic": "Distributed Caching Consistency"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "When the data is rarely accessed",
+        "When strong consistency is paramount and low latency is not a concern",
+        "When the data is frequently read but infrequently updated, and can tolerate some eventual consistency",
+        "When the data size is extremely large and cannot fit in memory"
+      ],
+      "question": "Under which conditions is caching most beneficial in an event-driven architecture?",
+      "topic": "Caching Use Cases"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "By increasing the load on event brokers",
+        "By creating a bottleneck for event processing",
+        "By requiring more complex transaction management",
+        "By reducing the number of requests to the primary data store, thus freeing up resources"
+      ],
+      "question": "How can caching improve the resilience of an event-driven system during peak load periods?",
+      "topic": "Resilience and Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Lost cache updates due to out-of-order event processing",
+        "Excessive memory usage from caching too little data",
+        "Unnecessary cache misses leading to higher latency",
+        "Reduced network overhead from constant cache synchronization"
+      ],
+      "question": "What is a potential pitfall if event ordering is not carefully considered when updating caches in an event-driven system?",
+      "topic": "Event Ordering and Caching"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "To strictly enforce transactional integrity across all services",
+        "To provide a low-latency, read-optimized data store for specific query needs, often built by consuming events",
+        "To act as the main event log for all system activities",
+        "To replace the need for a persistent database entirely"
+      ],
+      "question": "What is the primary role of a materialized view, often backed by a cache, in a CQRS (Command Query Responsibility Segregation) pattern within an event-driven architecture?",
+      "topic": "CQRS and Caching"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "A cache-hit ratio of 100%",
+        "Strong consistency at all times",
+        "Low latency for read operations",
+        "High throughput for write operations"
+      ],
+      "question": "Which metric is most critical for evaluating the effectiveness of a cache in an event-driven query service?",
+      "topic": "Caching Metrics"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "Increased operational complexity due to managing an additional component",
+        "Potential for stale data if invalidation strategies are not robust",
+        "Increased memory footprint across the system",
+        "All of the above"
+      ],
+      "question": "What are common drawbacks or complexities when introducing caching into an existing event-driven architecture?",
+      "topic": "Caching Drawbacks"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "To provide a consistent, low-latency view of data that services can query without re-processing event streams",
+        "To persist all events for long-term storage",
+        "To coordinate transactions across multiple microservices",
+        "To validate incoming event schemas"
+      ],
+      "question": "In a Stateful Stream Processing context, what is the role of an embedded key-value store or local cache?",
+      "topic": "Stream Processing Caching"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "LRU (Least Recently Used)",
+        "TTL (Time-To-Live)",
+        "LFU (Least Frequently Used)",
+        "MRU (Most Recently Used)"
+      ],
+      "question": "Which cache invalidation strategy is most commonly used in event-driven systems where data freshness is important but immediate consistency is not always feasible, allowing data to expire after a certain period?",
+      "topic": "Cache Invalidation Strategies"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Ensuring data is only read once",
+        "Simplifying event correlation",
+        "Minimizing network calls to backend services",
+        "Reducing the number of event types"
+      ],
+      "question": "Beyond performance, how does caching contribute to optimizing resource utilization in an event-driven system?",
+      "topic": "Resource Optimization"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "When the event broker is overloaded",
+        "When events are too large to fit in memory",
+        "When a service needs to process events synchronously",
+        "When a service needs to query historical aggregate state derived from past events"
+      ],
+      "question": "When might an event-driven service integrate an in-memory database or a specialized cache like Apache Geode or Hazelcast?",
+      "topic": "In-Memory Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Idempotent operations on the cache",
+        "Synchronous cache updates from all event producers",
+        "Ignoring cache misses",
+        "Re-fetching data from the primary database on every query"
+      ],
+      "question": "How can one mitigate the impact of replaying events to rebuild a cache's state in an event-driven system, especially during disaster recovery?",
+      "topic": "Cache Recovery"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "High latency for cache reads",
+        "Increased network traffic between the application and the cache",
+        "Reduced cache eviction rates",
+        "Simplified cache invalidation logic"
+      ],
+      "question": "What is a potential performance implication of a low cache-hit ratio in an event-driven query service?",
+      "topic": "Cache Hit Ratio"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "The cache is only updated when a database write occurs.",
+        "Data is written synchronously to both the cache and the database.",
+        "Data is written to the cache, and the cache then asynchronously writes to the database.",
+        "The cache is filled only on a read miss."
+      ],
+      "question": "In the context of caching, what does the 'write-back' strategy imply?",
+      "topic": "Caching Strategies"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "By increasing the number of network hops for event delivery",
+        "By ensuring all data is stored redundantly in multiple caches",
+        "By requiring a centralized cache for all event consumers",
+        "By allowing services to operate on potentially stale data for a short period, avoiding immediate consistency checks"
+      ],
+      "question": "How does eventual consistency, often enabled by caching, improve the availability of an event-driven system?",
+      "topic": "Availability and Consistency"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Using a message queue or event stream to publish cache invalidation messages",
+        "Implementing polling mechanisms on cached data",
+        "Relying on database triggers to invalidate caches directly",
+        "Manual cache invalidation by administrators"
+      ],
+      "question": "Which method is best suited for cross-service cache invalidation in a large-scale event-driven architecture?",
+      "topic": "Cross-Service Invalidation"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "It primarily stores event definitions and schemas.",
+        "It processes incoming events and updates a derived state or materialized view which can then be queried.",
+        "It buffers outgoing events before they are sent to the event broker.",
+        "It acts as a gateway for external systems to publish events."
+      ],
+      "question": "What role does a 'projection' or 'read model' play in an event-driven system, often coupled with caching?",
+      "topic": "Projections and Caching"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "To eliminate the need for an event broker",
+        "To ensure strong consistency across all distributed services",
+        "To capture state changes from events and apply them to a cache, often in real-time",
+        "To provide a mechanism for historical data analysis only"
+      ],
+      "question": "Why would an event-driven system use a stream processing engine (e.g., Apache Flink, Kafka Streams) to update caches?",
+      "topic": "Stream Processing for Caching"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "A type of distributed database for events",
+        "A high-performance event broker",
+        "An in-memory data grid that can act as a distributed cache and often includes data processing capabilities",
+        "A framework for building microservices"
+      ],
+      "question": "What is Apache Ignite in the context of enterprise caching for event-driven systems?",
+      "topic": "Caching Technologies"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "It adds complexity in managing cache consistency and invalidation across distributed services.",
+        "It eliminates the need for any persistent storage.",
+        "It makes debugging event flows simpler.",
+        "It reduces the overall memory footprint of the system."
+      ],
+      "question": "What is a significant architectural implication of introducing a distributed cache into an event-driven microservices ecosystem?",
+      "topic": "Architectural Implications"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "By ensuring all events are processed at the same speed",
+        "By providing immediate access to frequently requested data, reducing the need to re-process event streams or query backend databases",
+        "By strictly adhering to a single, global cache for all services",
+        "By simplifying the routing of events to consumers"
+      ],
+      "question": "How does caching help improve the responsiveness of query services that derive their state from event streams?",
+      "topic": "Query Responsiveness"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "The maximum number of items the cache can hold",
+        "The speed at which data is written to the cache",
+        "The proportion of data requests that are served from the cache",
+        "The time it takes to invalidate a cache entry"
+      ],
+      "question": "What does 'cache-hit ratio' refer to?",
+      "topic": "Caching Metrics"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It reduces the number of event types in the system.",
+        "It forces all event consumers to be stateless.",
+        "It increases the overhead of event serialization.",
+        "It allows a service to present a consistent view of aggregate state without constantly querying the underlying event store."
+      ],
+      "question": "How does caching support the concept of 'bounded contexts' and 'aggregates' in domain-driven design within an event-driven architecture?",
+      "topic": "DDD and Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Cache stampede or thundering herd problem",
+        "Cache consistency across network partitions",
+        "Under-utilization of cache memory",
+        "Over-provisioning of cache instances"
+      ],
+      "question": "When a cache entry expires and many concurrent requests try to re-populate it simultaneously from the backend, what issue can arise?",
+      "topic": "Cache Issues"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "To store all historical events indefinitely",
+        "To capture a snapshot of a business entity's state derived from its historical events, often used for caching current state",
+        "To serve as a transaction log for all system operations",
+        "To provide a secure layer for event encryption"
+      ],
+      "question": "In event sourcing, what is the purpose of a 'snapshot' in relation to caching an aggregate's state?",
+      "topic": "Event Sourcing and Caching"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Strongly consistent and always up-to-date",
+        "Only used for transient data that can be lost",
+        "Eventual consistent, potentially slightly stale but highly available",
+        "Only stores static reference data"
+      ],
+      "question": "In a highly distributed event-driven system, the data in a local service cache is typically:",
+      "topic": "Cache Characteristics"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It increases network overhead by forcing synchronous updates.",
+        "It complicates error handling for data retrieval.",
+        "It reduces the overall throughput of event processing.",
+        "It allows services to handle read requests without needing to re-process large event streams or hit the primary data store for every query."
+      ],
+      "question": "How does caching contribute to improving the performance of 'query-side' operations in a CQRS pattern?",
+      "topic": "CQRS Performance"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "When the cache becomes a critical point of failure, impacting system availability",
+        "When the cache is over-provisioned with too much memory",
+        "When the cache-hit ratio is consistently high",
+        "When the cache is used only for write operations"
+      ],
+      "question": "What defines a 'single point of failure' related to caching in an enterprise event-driven architecture?",
+      "topic": "Cache Resilience"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "By implementing a global lock for all cache updates",
+        "By publishing events that include data indicating which cache entries should be invalidated or updated",
+        "By periodically rebuilding the entire cache from the primary database",
+        "By manually flushing caches on a schedule"
+      ],
+      "question": "How can an event-driven system reliably invalidate specific cache entries when the underlying data changes due to an event?",
+      "topic": "Reliable Invalidation"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "All events must be cached before processing.",
+        "The cache itself acts as the event broker.",
+        "A cache needs to be able to be rebuilt from the original event stream if it fails or becomes inconsistent.",
+        "Caching events for auditing purposes."
+      ],
+      "question": "What is the importance of 'rebuildability' for caches in an event-driven, event-sourced system?",
+      "topic": "Cache Rebuildability"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It ensures real-time strong consistency for all read operations.",
+        "It only supports write-through caching.",
+        "It is primarily used for read-heavy workloads where eventual consistency is acceptable.",
+        "It can lead to increased memory usage and potentially higher operational costs."
+      ],
+      "question": "Which statement is true regarding the trade-offs of using an in-memory distributed cache in an event-driven architecture?",
+      "topic": "In-Memory Cache Trade-offs"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "A dedicated pub/sub system for cache invalidation messages",
+        "Synchronous RPC calls between services to invalidate caches",
+        "Polling the primary database for changes",
+        "Batch updates to caches overnight"
+      ],
+      "question": "For high-performance, real-time cache invalidation in an event-driven system, what mechanism is typically favored?",
+      "topic": "Real-time Invalidation"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "It removes the need for an event broker.",
+        "It allows clients to query a low-latency, read-optimized projection of data that is kept consistent by consuming events.",
+        "It ensures strict atomicity across distributed transactions.",
+        "It simplifies the process of data migration."
+      ],
+      "question": "How does a 'read model' (often cached) benefit an event-driven application that uses event sourcing?",
+      "topic": "Read Models and Event Sourcing"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "Increased operational overhead",
+        "Potential for stale data",
+        "Reduced load on event producers and downstream systems",
+        "Complex cache invalidation logic"
+      ],
+      "question": "What is a primary advantage of caching frequently accessed reference data (e.g., product catalogs, user profiles) in an event-driven system?",
+      "topic": "Reference Data Caching"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It always provides a strongly consistent view of the data.",
+        "It is only useful for historical data analysis.",
+        "It requires manual invalidation by developers.",
+        "It allows stateless microservices to quickly access necessary context or aggregate state without re-querying the source database for every request."
+      ],
+      "question": "How does caching facilitate the design of stateless microservices in an event-driven architecture?",
+      "topic": "Stateless Microservices and Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "Network latency between the application and the cache server",
+        "CPU usage of the event broker",
+        "Disk I/O of the primary database during writes",
+        "Memory consumption of the event consumers"
+      ],
+      "question": "What factor most directly influences the latency of a cache-hit in a distributed caching scenario within an EDA?",
+      "topic": "Cache Latency"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "By ensuring all events are processed synchronously",
+        "By providing a fast, resilient source for frequently accessed data, thereby reducing dependencies on potentially slower backend systems",
+        "By enforcing strong consistency globally",
+        "By increasing the complexity of event schema management"
+      ],
+      "question": "How does caching enhance the overall robustness of an enterprise event-driven system?",
+      "topic": "System Robustness"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "An increase in average query latency",
+        "A decrease in cache-hit ratio",
+        "A reduction in the number of concurrent database connections",
+        "An increase in event broker message queues"
+      ],
+      "question": "When caching is effectively implemented in an event-driven system, what is a likely observable outcome on the backend database?",
+      "topic": "Database Impact"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It implies that the cache must be updated immediately before the event is published.",
+        "It means the cache stores the raw event data.",
+        "It refers to caching events in the event broker for faster retrieval.",
+        "It describes a pattern where an event directly triggers an action to update or invalidate a specific entry or set of entries in a cache."
+      ],
+      "question": "What does the term 'reactive caching' often refer to in the context of event-driven systems?",
+      "topic": "Reactive Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "To minimize the performance impact during cache misses by pre-populating frequently accessed data",
+        "To reduce the overall memory footprint of the cache",
+        "To ensure strong consistency for all cached data",
+        "To simplify the logic for cache invalidation"
+      ],
+      "question": "What is the purpose of 'cache warming' in an event-driven system?",
+      "topic": "Cache Warming"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "When strong consistency is required across all services",
+        "When the data being cached is dynamic and frequently updated by events",
+        "When the cache is only used for static reference data",
+        "When network latency between services is negligible"
+      ],
+      "question": "When is 'eventual consistency' a necessary consideration for cached data in an event-driven architecture?",
+      "topic": "Eventual Consistency Considerations"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "It increases the CPU load on the event broker.",
+        "It makes it harder to debug event processing errors.",
+        "It prevents overloading downstream services or databases by serving requests directly from the cache.",
+        "It introduces stricter ordering requirements for events."
+      ],
+      "question": "How does caching help with 'back-pressure' in an event-driven system?",
+      "topic": "Back-Pressure Management"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "It primarily stores historical event logs.",
+        "It acts as the single source of truth for all business data.",
+        "It ensures strict transactional integrity across all microservices.",
+        "It provides fast, read-optimized access to a materialized view of business state derived from events."
+      ],
+      "question": "In a distributed event-driven system, what is the key role of a 'read model' that is often backed by a cache?",
+      "topic": "Read Models and Caching"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "By storing frequently accessed data closer to the consuming services, reducing remote calls",
+        "By increasing the size of individual event messages",
+        "By introducing more synchronous communication patterns",
+        "By centralizing all data access to a single cache instance"
+      ],
+      "question": "How does a distributed cache typically improve data access latency in an event-driven microservices architecture?",
+      "topic": "Distributed Cache Latency"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "The application polls the cache for updates.",
+        "Events are published that explicitly signal which cache keys are affected by a data change.",
+        "The cache automatically discovers data changes in the database.",
+        "Cache updates are performed synchronously with every database write."
+      ],
+      "question": "Which mechanism enables 'push-based' cache invalidation in an event-driven system?",
+      "topic": "Push-based Invalidation"
+    },
+    {
+      "correct": 2,
+      "options": [
+        "By increasing the number of event types.",
+        "By reducing the need for services to maintain their own persistent state for query purposes.",
+        "By forcing all services to be stateless.",
+        "By simplifying event schema evolution."
+      ],
+      "question": "How does caching contribute to the operational simplicity of microservices in an event-driven ecosystem?",
+      "topic": "Operational Simplicity"
+    },
+    {
+      "correct": 3,
+      "options": [
+        "When the cache is constantly being updated by events.",
+        "When the data in the cache needs to be immediately consistent with the source.",
+        "When the cache stores static, immutable data.",
+        "When the cost of re-computing data is high, or querying the source is expensive, and some staleness is acceptable."
+      ],
+      "question": "Under what circumstances would a longer TTL (Time-To-Live) be appropriate for cached data in an event-driven system?",
+      "topic": "TTL and Data Freshness"
+    },
+    {
+      "correct": 0,
+      "options": [
+        "A mechanism to pre-fill the cache with data before it's requested by users or services.",
+        "A process to flush all data from the cache periodically.",
+        "A method for automatically scaling cache instances.",
+        "A strategy for handling cache misses."
+      ],
+      "question": "What is 'cache priming' in the context of an event-driven system?",
+      "topic": "Cache Priming"
+    },
+    {
+      "correct": 1,
+      "options": [
+        "It introduces stronger consistency guarantees for distributed transactions.",
+        "It provides a highly available and fault-tolerant layer for frequently accessed data.",
+        "It simplifies the process of event correlation.",
+        "It reduces the overall memory footprint of the system."
+      ],
+      "question": "How does using a redundant, clustered distributed cache (e.g., Redis Cluster, Apache Cassandra as a cache) enhance the reliability of an event-driven system?",
+      "topic": "Reliability of Distributed Cache"
+    }
+  ],
+  "title": "Enterprise Event-Driven Architecture Caching Quiz"
+}
